@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/Desktop/Selenium Assignment/Assignment">
+        <classes>
+            <class name="org.example.BaseTest">
+                <methods>
+                    <include name="checkPageTitle"/>
+                    <include name="testPage"/>
+                </methods>
+            </class>
+            <class name="org.example.ChooseItem">
+                <methods>
+                    <include name="searchMobilePhone"/>
+                    <include name="searchMob"/>
+                    <include name="selectBrand"/>
+                    <include name="firstSearchItem"/>
+                    <include name="navigateToNewWindow"/>
+                </methods>
+            </class>
+            <class name="org.example.PurchaseItem">
+                <methods>
+                    <include name="selectFeatures"/>
+                    <include name="getTitle"/>
+                    <include name="getPrice"/>
+                    <include name="getCondition"/>
+                    <include name="getQuantity"/>
+                    <include name="addItemCart"/>
+                    <include name="assertP"/>
+                    <include name="assertQ"/>
+                    <include name="assertSubTot"/>
+                    <include name="getShippingValue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
